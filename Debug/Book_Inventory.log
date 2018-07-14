@@ -1,0 +1,17 @@
+﻿Build started 3/1/2018 10:06:18 PM.
+     1>Project "C:\Users\Atchima\Downloads\Book_Inventory\Book_Inventory.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Book_Inventory.cpp
+         Book_Inventory.cpp
+     1>c:\users\atchima\downloads\book_inventory\book_inventory.cpp(220): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Atchima\Downloads\Book_Inventory\Debug\Book_Inventory.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Atchima\Downloads\Book_Inventory\Debug\Book_Inventory.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Atchima\Downloads\Book_Inventory\Debug\Book_Inventory.lib" /MACHINE:X86 Debug\BookRecord.obj
+         Debug\Book_Inventory.obj
+         Debug\Main.obj
+         Book_Inventory.vcxproj -> C:\Users\Atchima\Downloads\Book_Inventory\Debug\Book_Inventory.exe
+     1>Done Building Project "C:\Users\Atchima\Downloads\Book_Inventory\Book_Inventory.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.03
